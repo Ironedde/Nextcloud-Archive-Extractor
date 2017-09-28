@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>archiveextractor</id>
+    <id>archive-extractor</id>
     <name>Archive Extractor</name>
     <summary>This app will allow you to extract compressed archives to a directory of you choosing.</summary>
     <description><![CDATA[Archive-Viewer enables all users to extract compressed archives using the dropdown when selecting the file.]]></description>
@@ -18,7 +18,7 @@
     <navigations>
         <navigation>
             <name>Archive Extractor</name>
-            <route>archiveextractor.page.index</route>
+            <route>archive-extractor.page.index</route>
         </navigation>
     </navigations>
 </info>

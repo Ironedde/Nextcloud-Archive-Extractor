@@ -10,7 +10,7 @@ require_once __DIR__.'/../../../lib/base.php';
 \OC::$loader->addValidRoot(OC::$SERVERROOT . '/tests');
 
 // Fix for "Autoload path not allowed: .../archiveextractor/tests/testcase.php"
-\OC_App::loadApp('archiveextractor');
+\OC_App::loadApp('archive-extractor');
 
 if(!class_exists('PHPUnit_Framework_TestCase')) {
     require_once('PHPUnit/Autoload.php');

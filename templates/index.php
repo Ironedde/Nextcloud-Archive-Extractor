@@ -1,6 +1,6 @@
 <?php
-script('archiveextractor', 'script');
-style('archiveextractor', 'style');
+script('archive-extractor', 'script');
+style('archive-extractor', 'style');
 ?>
 
 <div id="app">
